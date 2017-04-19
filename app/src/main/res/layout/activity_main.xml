@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.h_dj.recognizefacedemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_facedetect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="人脸识别"/>
+
+    <Button
+        android:id="@+id/btn_facecontrast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_facedetect"
+        android:layout_marginTop="5dp"
+        android:text="人脸对比"/>
+
+    <Button
+        android:id="@+id/btn_facecsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_facecontrast"
+        android:layout_marginTop="5dp"
+        android:text="人脸查找"/>
+</RelativeLayout>

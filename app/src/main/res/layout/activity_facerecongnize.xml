@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow>
+
+            <com.example.h_dj.recognizefacedemo.DrawView
+                android:id="@+id/iv_picture1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dili3"/>
+
+            <com.example.h_dj.recognizefacedemo.DrawView
+                android:id="@+id/iv_picture3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cluo"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <com.example.h_dj.recognizefacedemo.DrawView
+                android:id="@+id/iv_picture2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ziyi1"/>
+
+            <com.example.h_dj.recognizefacedemo.DrawView
+                android:id="@+id/iv_picture4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dili1"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/btn_Contrast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="人脸对比"/>
+</LinearLayout>
